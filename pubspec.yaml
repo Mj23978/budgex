@@ -1,0 +1,179 @@
+name: budgex
+description: This Application is a Simple Budget Manager
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  bitbox:
+    path: ../packages/bitbox-0.0.6/
+  flutter_icons:
+    path: ../packages/flutter-icons-1.1.1/
+  link_previewer:
+    path: ../packages/flutter-link-previewer-2.0.0/
+  web3dart:
+    path: ../packages/web3dart-2.1.5/
+  animated_bottom_navigation_bar: ^0.2.1
+  animations: ^1.1.2
+  badges: ^2.0.1
+  beamer: ^0.14.1
+  bitcoin_flutter: ^2.0.2
+  bot_toast: ^3.0.5
+  cached_network_image: ^3.0.0
+  chart_sparkline: ^1.0.5
+  charts_flutter: ^0.6.0
+  container_tab_indicator: ^0.3.0
+  csv: ^4.0.3
+  cupertino_icons: ^1.0.2
+  dartx: ^0.7.1
+  dartz: ^0.10.0-nullsafety.2
+  data_connection_checker: ^0.3.4
+  decimal: ^1.2.0
+  encrypt: ^5.0.0
+  english_words: ^3.1.0
+  extended_image: ^4.1.0
+  file_picker: ^3.0.3
+  fl_chart: ^0.36.2
+  flash: ^1.5.1
+  flex_color_picker: ^2.1.1
+  flutter_barcode_sdk: ^1.2.2
+  flutter_bloc: ^7.0.0
+  flutter_dynamic_icon: ^2.0.0
+  flutter_echarts: ^2.1.0
+  flutter_facebook_auth: ^3.5.0
+  flutter_form_builder: ^6.0.1
+  flutter_html: ^2.0.0
+  flutter_phoenix: ^1.0.0
+  flutter_screenutil: ^4.0.3
+  flutter_slidable: ^0.5.7
+  flutter_spinkit: ^4.1.2+1
+  flutter_staggered_animations: ^0.1.2
+  flutter_staggered_grid_view: ^0.4.0
+  flutter_svg: ^0.22.0
+  flutter_swiper: ^1.1.6
+  flutter_uix: ^0.1.2-nullsafety.2
+  font_awesome_flutter: ^9.1.0
+  formz: ^0.4.0
+  freezed_annotation: ^0.14.2
+  google_fonts: ^2.1.0
+  google_sign_in: ^5.0.4
+  grouped_list: ^4.0.0
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  hooks_riverpod: ^0.14.0+4
+  http_auth: ^0.2.5
+  json_diff: ^0.2.0
+  keccak: ^1.0.3
+  keyboard_avoider: ^0.1.2
+  liquid_pull_to_refresh: ^3.0.0
+  local_auth: ^1.1.6
+  logger: ^1.0.0
+  marquee: ^2.2.0
+  material_design_icons_flutter: ^4.0.5345
+  modal_bottom_sheet: ^2.0.0
+  money_formatter: ^0.0.3
+  onesignal_flutter: ^3.0.0
+  overlay_support: ^1.2.0
+  package_info: 2.0.0
+  page_transition: ^1.0.9
+  path: ^1.6.4
+  path_provider: ^2.0.2
+  percent_indicator: ^2.1.7+2
+  permission_handler: ^8.1.2
+  pinput: ^1.2.0
+  pretty_qr_code: ^2.0.2
+  protobuf: ^2.0.0
+  protoc_plugin: ^20.0.0
+  qr: ^2.1.0
+  qr_flutter: ^4.0.0
+  random_string: ^2.0.1
+  readmore: ^1.0.1
+  riverbloc: ^0.5.0
+  rounded_loading_button: ^2.0.5
+  shared_preferences: ^2.0.6
+  shimmer: ^1.0.1
+  showcaseview: ^0.1.6
+  sticky_headers: ^0.1.8
+  syncfusion_flutter_charts: ^19.2.44+1
+  table_calendar: ^3.0.1
+  theme_provider: ^0.5.0
+  timeago: ^3.1.0
+  transparent_image: ^1.0.0
+  ultimate_data_generator:
+    path: ../packages/ultimate_data_generator-1.0.1/
+  validators: ^2.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^8.0.2
+  build_runner: ^2.0.5
+  flutter_launcher_icons: ^0.9.0
+  flutter_native_splash: ^1.1.9
+  freezed: ^0.14.2
+  hive_generator: ^1.1.0
+  json_serializable: ^4.1.3
+  mockito: ^5.0.10
+
+dependency_overrides:
+  args: ^2.1.1
+  crypto: ^3.0.0
+  hex: ^0.1.2
+  convert: ^3.0.0
+  intl: ^0.17.0
+  bip39: ^1.0.5
+  pointycastle: ^3.0.0
+  dart_style: ^2.0.0
+  http: ^0.13.0
+  fixnum: ^1.0.0
+  vin_decoder:
+    path: "../packages/vin_decoder-0.2.0-nullsafety/"
+  basic_utils:
+    path: "../packages/basic-utils-3.3.3/"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/icon.png
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: "121212"
+  android_disable_fullscreen: true
+
+flutter:
+  uses-material-design: true
+  # shed hill people icon fragile critic vicious return write coconut jump clutch
+  # royal calm banner faith tiny capital tooth nerve attract addict garbage wish
+  assets:
+    - assets/
+    - assets/images/
+    - assets/rive/
+    - assets/icon/
+    - fonts/
+
+  fonts:
+    - family: Avenir Next
+      fonts:
+        - asset: fonts/AvenirNext.otf
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-Regular.ttf
+        - asset: assets/fonts/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans-Bold.ttf
+          weight: 700
+    # - family: Roboto
+    #   fonts:
+    #     - asset: fonts/Roboto-Italic.ttf
+    #     - asset: fonts/Roboto-normal.ttf
